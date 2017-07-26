@@ -1,0 +1,29 @@
+.actions {
+	float: right;
+	
+}
+.list .completed label{
+	color: #a7b9c4;
+	text-decoration: line-through;
+}
+
+.list .edited label:after{
+	content: "edited";
+	text-transform: uppercase;
+	color: #484848;
+	font-size:14px;
+	padding-left: 5px;
+	padding-top: px;
+}
+.list{
+	padding: 10px;
+	max-width: 800px;
+	display: block;
+	margin: 0 auto;
+}
+.mb-5{
+	margin-bottom: 10px;
+}
+h1 {
+	text-align: center;
+}
